@@ -1,0 +1,61 @@
+          <!DOCTYPE html>
+          <html lang="en">
+         <head>
+        <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Tailwind Styled Page</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+
+    <body class="bg-gradient-to-br from-blue-100 via-white to-blue-200 min-h-screen flex items-center justify-center scroll-smooth">
+        <form  class="bg-white shadow-2xl rounded-2xl
+         p-10 w-full max-w-md space-y-6">
+
+<h2 id="formTitle" 
+        class="text-2xl font-bold text-center text-gray-800">
+        Sign Up
+    </h2>   
+            <div class="space-y-2">
+         <label for="name" class="block text-sm font font-medium">Name</label>
+            
+            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 
+               rounded-lg focus:outline-none 
+               focus:ring-2 focus:ring-blue-500 
+               focus:border-blue-500 transition">
+
+               </div>
+        <div class="space-y-2">
+            <label for="email" class="block text-sm font font-medium">Email</label>
+                <input type="email" id="email" name="email" class=" w-full px-4 py-2
+                 border border-grey-300 rounded-lg 
+                focus:outline-none focus:ring-2 focus:ring-blue-500
+                 focus:border-blue-500 transition ">
+        </div>
+
+        <div class="space-y-2">
+
+                <label for="password">Password</label>
+                <input name="password" id="password" required class="w-full px-4 py-2 
+                 border border-grey-300 rounded-lg
+                 focus:outline-none focus:ring-2 focus:ring-2-blue-500
+                 focus:border-blue-600 transition">
+        </div>
+               <div class="space-y-2">
+
+                <label for="password"> Confirm Password</label>
+                <input name="password" id="pass" required class="w-full px-4 py-2 
+                 border border-grey-300 rounded-lg
+                 focus:outline-none focus:ring-2 focus:ring-2-blue-500
+                 focus:border-blue-600 transition">
+        </div>
+
+            <button class="w-full bg-blue-600 text-white
+             py-2 rounded-lg font-semibold
+             hover:bg-blue-700 transition duration-300 shadow-md hover: ">Submit</button>
+        </form>
+          
+
+
+
+    </body>
